@@ -1,0 +1,34 @@
+{
+  "name": "checking_final",
+  "description": "This is for checksum creation and verification in paytm",
+  "version": "1.0.0",
+  "author": "Soumya Vats",
+  "main": "checksum_v2/index.js",
+  "keywords": [
+    "test",
+    "checking",
+    "Node"
+  ],
+  "homepage": "https://developer.test.com/docs/checking/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soumya-vats/testing_node"
+  },
+  "scripts": {
+    "build": "tsc",
+    "rebuild": "npm run clean && tsc -p .",
+    "clean": "rm -rf checksum_v2"
+  },
+  "devDependencies": {
+    "@types/node": "8.9.0",
+    "@types/request": "2.48.1",
+    "@types/uuid": "3.4.4"
+  },
+  "dependencies": {
+    "request": "2.88.0",
+    "tslib": "1.9.3",
+    "typescript": "3.4.5",
+    "uuid": "3.3.2",
+    "winston": "3.2.1"
+  }
+}
